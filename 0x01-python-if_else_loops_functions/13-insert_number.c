@@ -7,6 +7,7 @@
  *
  * Return: the address of the new node, or NULL if it failed
  */
+
 listint_t *insert_node(listint_t **head, int number)
 {
 	listint_t *new_node, *current;
@@ -25,6 +26,7 @@ listint_t *insert_node(listint_t **head, int number)
 	if (*head == NULL)
 	{
 		*head = new_node;
+		(*head)->next = NULL;
 		return (new_node);
 	}
 
