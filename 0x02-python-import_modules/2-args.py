@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
-# Import the sys module
+    # Import the sys module
     import sys
 
 # Get the number of arguments passed to the program
