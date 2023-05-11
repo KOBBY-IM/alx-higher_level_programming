@@ -5,7 +5,7 @@ if __name__ == "__main__":
     import sys
 
 # Get the number of arguments passed to the program
-    num_args = len(sys.argv)
+    num_args = len(sys.argv) - 1
 
 # If no arguments were passed, print "No arguments"
     if num_args == 0:
@@ -18,4 +18,4 @@ if __name__ == "__main__":
     else:
         print("{} arguments:".format(num_args))
     for i in range(num_args):
-        print("{}: {}".format(i + 1, sys.argv[i]))
+        print("{}: {}".format(i + 1, sys.argv[i + 1]))
