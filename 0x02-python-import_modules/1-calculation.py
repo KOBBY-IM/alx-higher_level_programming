@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
-    # Import the add, sub, mul, and div functions from the calculator_1.py file
     from calculator_1 import add, sub, mul, div
 
     # Assign the value 10 to a variable called a
@@ -18,6 +17,5 @@ if __name__ == "__main__":
 
     # Print the product of a and b
     print("{} * {} = {}".format(a, b, mul(a, b)))
-
     # Print the quotient of a and b
     print("{} / {} = {}".format(a, b, div(a, b)))
