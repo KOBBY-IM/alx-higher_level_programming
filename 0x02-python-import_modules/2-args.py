@@ -9,7 +9,7 @@ if __name__ == "__main__":
 
 # If no arguments were passed, print "No arguments"
     if num_args == 0:
-        print("No arguments")
+        print("0 arguments")
 
 # Otherwise, print the number of arguments followed by a colon,
 # followed by a new line, followed by one line per argument:
