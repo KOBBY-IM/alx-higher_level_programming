@@ -9,8 +9,9 @@ if __name__ == "__main__":
 
 # If no arguments were passed, print "No arguments"
     if num_args == 0:
-        print("0 arguments")
-
+        print("0 arguments.")
+    elif num_args == 1:
+        print("1 argument:")
 # Otherwise, print the number of arguments followed by a colon,
 # followed by a new line, followed by one line per argument:
 # the position of the argument (starting at 1) followed by a colon,
