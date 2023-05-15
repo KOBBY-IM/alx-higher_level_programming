@@ -4,6 +4,9 @@ def print_matrix_integer(matrix=[[]]):
     if not matrix:
         return
     for row in matrix:
-        for element in row:
-            print("{}".format(element), end=" ")
+        for i in row:
+            if i is not row[len(row) - 1]:
+                print("{}".format(i), end=" ")
+            else:
+                print("{}".format(i), end=" ")
         print()
