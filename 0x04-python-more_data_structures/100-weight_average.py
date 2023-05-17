@@ -5,7 +5,7 @@ def weight_average(my_list=[]):
         return 0
 
     # Get the sum of all scores.
-    sum_scores = sum(score for score, weight in my_list)
+    sum_scores = sum(score * weight for score, weight in my_list)
 
     # Get the sum of all weights.
     sum_weights = sum(weight for score, weight in my_list)
