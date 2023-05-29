@@ -9,3 +9,4 @@ This repository contains programs written for the higher-level programming track
 0x02-python-import_modules
 0x03-python-data_structures
 0x04. Python - More Data Structures: Set, Dictionary
+0x05-python-exceptions
