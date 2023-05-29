@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+"""
 def safe_print_list(my_list=[], x=0):
     for i in range(x):
         try:
@@ -10,9 +10,8 @@ def safe_print_list(my_list=[], x=0):
 
     print("")
     return i
-
-
 """
+
 def safe_print_list(my_list=[], x=0):
     i = 0
     while i < x:
@@ -20,7 +19,6 @@ def safe_print_list(my_list=[], x=0):
             print("{}".format(my_list[i]), end="")
         except IndexError:
             break
-        idx += 1
+        i += 1
     print("")
-    return idx
-"""
+    return i
