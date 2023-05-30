@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
-""" Dfine a square class"""
+"""Dfine a square class"""
 
-class Square
+
+class Square:
     """Empty Class"""
     pass
