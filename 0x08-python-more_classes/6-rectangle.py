@@ -76,7 +76,7 @@ class Rectangle():
 
     def perimeter(self):
         """
-        Return 2*width + 2*height (or return 0 if width or height is 0
+        Return 2*width + 2*height (or return 0 if width or height is 0)
         """
         if self.__width == 0 or self.__height == 0:
             return 0
@@ -92,8 +92,3 @@ class Rectangle():
     def __repr__(self):
         """ String representation to recreate new instance """
         return "Rectangle({:d}, {:d})".format(self.width, self.height)
-
-     def __del__(self):
-        """ Deletes instance class """
-        type(self).number_of_instances -= 1
-        print("Bye rectangle...")
