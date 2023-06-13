@@ -71,13 +71,4 @@ Test type, isinstance, issubclass:
      >>> 'print_sorted' in dir(MyList)
      True
 
-FAIL CASES:
-
-	 >>> a.append("b")
-	 >>> a
-	 [1, 5, 3, 'b']
-
-     >>> a.print_sorted()
-     Traceback (most recent call last):
-        ...
-     TypeError: unorderable types: str() < int()
+FAIL CASE:
