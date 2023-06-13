@@ -12,6 +12,9 @@ class MyList(list):
     methods:
     print_sorted(self)
     """
+    def __init__(self):
+        super().__init__()
+
     def print_sorted(self):
         """prints list of ints all sorted in ascending order"""
         print(sorted(self))
